@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Husn ", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Pehle Bhi Main ", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Dil Haareya ", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Tu Hai Kahan ", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Tu Jaana Na Piya New Life 320 Kbps", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Mahiye Jinna Sohna ", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Lo Aayi Barsaat ", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Ve Kamleya ", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Pyaar Hota Kayi Baar Hai ", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Maan Meri Jaan", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Husn ", filePath: "1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Pehle Bhi Main ", filePath:"2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Dil Haareya ", filePath:"3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Tu Hai Kahan ", filePath:"4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Tu Jaana Na Piya New Life 320 Kbps", filePath: "5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Mahiye Jinna Sohna ", filePath: "6.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Lo Aayi Barsaat ", filePath: "7.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Ve Kamleya ", filePath: "8.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Pyaar Hota Kayi Baar Hai ", filePath: "9.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Maan Meri Jaan", filePath: "10.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
